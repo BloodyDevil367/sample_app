@@ -1,0 +1,7 @@
+require 'autotest/growl'
+
+#Icon Set -> use default
+# Autotest::Growl::image_dir = 'ampelmaennchen'
+
+#dont clear console
+Autotest::Growl::clear_terminal = false
