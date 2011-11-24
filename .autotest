@@ -5,3 +5,6 @@ require 'autotest/growl'
 
 #dont clear console
 Autotest::Growl::clear_terminal = false
+
+#remote port
+Autotest::Growl::remote_notification = true
